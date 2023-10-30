@@ -1,0 +1,561 @@
+/* Reset de estilos para o body */
+body {
+    background-image: linear-gradient(to bottom , rgba(141, 103, 84, 0.829), rgba(155, 101, 67, 0.849));
+    height: 100%;
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Estilo para o cabeçalho (header) */
+.header {
+    background-color: rgba(197, 165, 104, 0.945);
+    color: #52da1c;
+    /* padding: 3px; */
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 16px;
+}
+
+/* Estilo para a navegação (menu) */
+nav {
+    background-color: #110d5c8f;
+    color: #52da1c;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(229, 126, 126, 0.2);
+}
+
+/* Estilo comum para seções */
+.section {
+    margin-bottom: 30px;
+     /* border: 1px solid #000000; */
+    padding: 20px;
+}
+
+/* Estilo para a seção de reserva */
+.reserva {
+    background-color:  #110d5c8f;
+    color: #000000;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+/* Estilo para os cards do menu */
+.cardapio {
+    text-align: center; 
+    display: flex;
+    border: 1px solid #180f46;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 300px;
+    background-color: #473102cc;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.card .button {
+    background-color: #52da1c;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: opacity 0.3s ease;
+}
+
+.card .button:hover {
+    opacity: 0.8;
+}
+
+/* Estilo para a seção de interações */
+#interacoes {
+    background-color: #be8f39;
+    border: 1px solid #000000;
+    color: #ffffff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(229, 126, 126, 0.2);
+}
+
+#interacoes h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#interacoes p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#interacoes ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#interacoes li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* Estilo para a seção de destaques */
+/* .destaques {
+    background-color: #3333337e;
+    border: 1px solid #000000;
+    color: #DA291C;
+    padding: 20px;
+    border-radius: 9px;
+    box-shadow: 0 0 5px rgba(229, 126, 126, 0.2);
+}
+
+.destaques h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.destaques ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.destaques li {
+    font-size: 16px;
+    margin-bottom: 5px;
+} */
+
+/* Estilo para a seção de perguntas frequentes */
+/* .perguntas-frequentes {
+    background-color: #FFC72C;
+    border: 1px solid #000000;
+    color: #DA291C;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(229, 126, 126, 0.2);
+}
+
+.perguntas-frequentes h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.perguntas-frequentes ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.perguntas-frequentes li {
+    font-size: 16px;
+    margin-bottom: 5px;
+} */
+
+/* Estilo para a seção de feedback */
+/* .feedback {
+    background-color: #FFC72C;
+    border: 1px solid #000000;
+    color: #D80000;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(229, 126, 126, 0.2);
+}
+
+.feedback h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feedback form {
+    margin-top: 15px;
+}
+
+.feedback input[type="text"],
+.feedback input[type="email"],
+.feedback textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #D80000;
+    border-radius: 5px;
+}
+
+.feedback textarea {
+    height: 150px;
+}
+
+.feedback button[type="submit"] {
+    background-color: #D80000;
+    color: #FFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: opacity 0.3s ease;
+}
+
+.feedback button[type="submit"]:hover {
+    opacity: 0.8;
+} */
+
+/* Estilo para a seção "Sobre Nós" */
+.sobre-nos {
+    background-color: #be8f39;
+    border: 1px solid #000000;
+    padding: 20px;
+}
+
+.sobre-nos h2 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.sobre-nos p {
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+/* Estilo para a seção "Contato" */
+.contato { 
+    background-color: #be8f39;
+    border: 1px solid #000000;
+    padding: 20px;
+}
+
+.contato h2 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.contato p {
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+.contato ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contato li {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.contato a {
+    color: #DA291C;
+    text-decoration: none;
+}
+
+.contato a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para a seção "Depoimentos" */
+/* .depoimentos {
+    background-color: #FFC72C;
+    padding: 20px;
+}
+
+.depoimentos h2 {
+    font-size: 24px;
+    color: #DA291C;
+    margin-bottom: 20px;
+} */
+
+/* Estilo para os blocos de citação */
+/* .depoimentos blockquote {
+    border-left: 4px solid #fdfdfd;
+    border: 1px solid #000000;
+    background-color:#DA291C;
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+
+.depoimentos blockquote p {
+    font-size: 16px;
+    color: #000000;
+    line-height: 1.5;
+}
+
+.depoimentos blockquote cite {
+    font-size: 16px;
+    color: #000000;
+    margin-top: 10px;
+} */
+
+/* Estilo para a seção "Blog" */
+/* .blog {
+    padding: 20px;
+    border: 1px solid #000000;
+    color: #FFC72C;
+    font-size: medium;
+    background-color: #FFC72C;
+}
+
+.blog h2 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.blog article {
+    margin-bottom: 30px;
+}
+
+.blog h3 {
+    font-size: 20px;
+    color: #ffffff;
+} */
+
+
+
+/* Estilo para a seção "Redes Sociais" */
+.redes-sociais {
+    background-color: #be8f39;
+    border: 1px solid #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+.redes-sociais h2 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.redes-sociais p {
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.redes-sociais ul {
+    list-style: none;
+    padding: 0;
+}
+
+.redes-sociais li {
+    display: inline-block;
+    font-size: 16px;
+    border: 1px solid #000000;
+    background-color:  #62da1c; 
+    color: #ffffff;
+    margin-right: 15px;
+}
+
+/* Estilo para os links das redes sociais */
+.redes-sociais a {
+    text-decoration: none;
+    color: #292626;
+}
+
+.redes-sociais a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para a seção "Horários de Atendimento" */
+/* .horarios-atendimento {
+    background-color: #be8f39;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.horarios-atendimento h2 {
+    font-size: 24px;
+    color: #DA291C;
+}
+
+.horarios-atendimento p {
+    font-size: 16px;
+    color: #DA291C;
+}
+
+.horarios-atendimento ul {
+    list-style: none;
+    padding: 0;
+}
+
+.horarios-atendimento ul li {
+    font-size: 18px;
+    color: #DA291C;
+    margin-bottom: 10px;
+}
+
+/* Estilizando os dias da semana */
+/* .horarios-atendimento ul li:nth-child(odd) {
+    font-weight: bold;
+    color: #be8f39;
+} */
+
+/* Estilizando o parágrafo final */
+/* .horarios-atendimento p:last-child {
+    margin-top: 10px;
+} */
+
+/* Estilo para a seção de Parceria Ecológica com a MD */
+
+.parceria {
+    /* background-color: rgba(122, 145, 78, 0.658); */
+    background-color: rgba(186, 214, 108, 0.555);
+    color: #000000;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.377);
+}
+
+.parceria h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.parceria h1 {
+    color: rgb(0, 0, 0);
+}
+
+
+.parceria p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.parceria ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.parceria li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+/* Estilo para o carrinho de compras */
+#carrinho {
+    background-color: #be8f39; /* Amarelo */
+    padding: 20px;
+    border: 1px solid #000000;
+    margin-top: 20px;
+  }
+  
+  #carrinho h2 {
+    color: #ffffff;
+  }
+  
+  #total {
+    font-weight: bold;
+  }
+  
+  #limpar-carrinho {
+    background-color: #DA291C; /* Vermelho */
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  #limpar-carrinho:hover {
+    background-color:  #DA291C; /* Vermelho mais escuro quando hover */
+  }
+  
+  /* Estilo para o formulário de pagamento */
+  #pagamento {
+    background-color: #be8f39; /* Amarelo */
+    padding: 20px;
+    border: 1px solid #000000;
+    margin-top: 20px;
+  }
+  
+  #pagamento h2 {
+    color: white;
+  }
+
+  #pagamento button{
+    color: white;
+  }
+  
+  form label {
+    display: block;
+    margin-top: 10px;
+    color: #555;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: 85%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus {
+    border-color: #007bff; /* Azul quando focado */
+  }
+  
+  button[type="submit"] {
+    background-color: #DA291C; /* Azul */
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3; /* Azul mais escuro quando hover */
+  }
+
+  nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+input {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style 2.css">
+    
+    
+    
+    <title>Barra de Navegação</title>
+</head>
+<body>
+        <!-- NAVBAR -->
+        <nav class="navbar">
+            <div class="menu-icon" id="menu-icon">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-list" id="nav-list">
+                <li><a href="home.html">Início</a></li>
+                <li><a href="cardapio.html">Cardápio</a></li>
+                <li><a href="carrinho.html">Pedidos</a></li>
+                <li><a href="reserva.html">Reserva</a></li>
+                <li><a href="sobre.html">Sobre nós</a></li>
+            </ul>
+            <img src="img\removebg-dashidine.png" alt="Logo DashDine" width="100" height="100">
+        </nav>
+    <div class="content">
+        <!-- Conteúdo da página -->
+    </div>
+
+    <!-- Reserva de mesas -->
+    <div class="container">
+        <h2>Menu</h2>
+        <!-- Seu menu aqui -->
+
+        <h2>Reservar uma Mesa</h2>
+        <div class="reservation-form">
+            <label for="restaurantLocation">Localização do Restaurante (selecione no mapa):</label>
+            <div id="map"></div>
+            <br>
+            <label for="name">Nome:</label>
+            <input type="text" id="name">
+            <br>
+            <label for="date">Data:</label>
+            <input type="date" id="date">
+            <br>
+            <label for="time">Hora:</label>
+            <input type="time" id="time">
+            <br>
+            <label for="numberOfGuests">Quantidade de Pessoas:</label>
+            <input type="number" id="numberOfGuests">
+            <br>
+            <button class="reservation-button" onclick="makeReservation()">Reservar Mesa</button>
+        </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="script.js"></script>
+    <!-- API do Google Maps -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_HERE&libraries=places&callback=initMap&solution_channel=GMP_QB_addressselection_v1_cABC"></script>
+</body>
+</html>
